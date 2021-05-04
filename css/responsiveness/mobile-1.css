@@ -1,0 +1,29 @@
+
+/* Mobile phones */
+@media (min-width: 320px) and (max-width: 850px) {
+	/* CSS */
+	#heroButtonsDiv{
+        text-align: center;
+    }
+
+    #right_hero_section,
+    #prominent_img > img:nth-child(1),
+    #left_hero_section{
+        width: 100%;
+    }
+
+    #prominent_img > img:nth-child(2){
+        top: 30px;
+        height: 300px;
+    }
+
+    #hero_section{
+        display: block;
+        margin-bottom: 95%;
+    }
+
+    #left_hero_section{
+        margin-bottom: 15%;
+    }
+
+}

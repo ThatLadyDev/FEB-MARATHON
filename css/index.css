@@ -79,3 +79,15 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
+@media (min-width: 1281px) {
+    #card_section > div:nth-child(1){
+        width: 115%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #card_section > div:nth-child(1){
+        width: 115%;
+    }
+}
